@@ -1,7 +1,7 @@
 input.onButtonPressed(Button.A, function () {
     for (let Index = 0; Index <= Schwanz.length / 2 - 1; Index++) {
-        Schwanz[Index * 2].set(LedSpriteProperty.Brightness, 100)
-        Schwanz[Index * 2 + 1].set(LedSpriteProperty.Brightness, 200)
+        Schwanz[Index * 2].set(LedSpriteProperty.Brightness, 5)
+        Schwanz[Index * 2 + 1].set(LedSpriteProperty.Brightness, 50)
     }
 })
 input.onButtonPressed(Button.B, function () {
